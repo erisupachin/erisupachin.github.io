@@ -22,7 +22,6 @@ body {
 }
 .card{
   position: relative;
-  max-width: 280px;
   color: var(--erisu-primary-ltr);
   border-radius: 3px;
   box-shadow: 0px 3px 16px rgba(238, 17, 85, 0.87);
@@ -137,4 +136,19 @@ a:hover {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+}
+/* media queries */
+@media screen {
+  .card {
+    width: 69%;
+    min-width: 69%;
+    max-width: 69%;
+  }
+}
+@media screen and (min-width:900px) {
+  .card {
+    width: 27%;
+    min-width: 280px;
+    max-width: 300px;
+  }
 }
