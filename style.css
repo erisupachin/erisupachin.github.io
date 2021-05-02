@@ -10,7 +10,7 @@
   --erisu-secondary-lt:   #a66;
   --erisu-secondary-ltr:  #a66;
 
-  --erisu-border:         rgba(255,255,255,0.3);
+  --erisu-border:         rgba(255,255,255,0.4);
 }
 
 body {
@@ -22,14 +22,20 @@ body {
 }
 .card{
   position: relative;
+  box-sizing: border-box;
   color: var(--erisu-primary-ltr);
-  border-radius: 3px;
+  border-radius: 4px;
   box-shadow: 0px 3px 16px rgba(238, 17, 85, 0.87);
-  padding: 12px 6px 16px 6px;
+  padding: 4px;
   background: var(--erisu-primary);
-  display: grid;
-  place-items: center;
   transform: rotate(1deg);
+}
+.seem {
+  place-items: center;
+  display: grid;
+  border: 2px dashed rgba(255,255,255,0.7);
+  border-radius: 3px;
+  padding: 12px 6px 16px 6px;
 }
 .profil {
   text-align: center;
@@ -119,14 +125,14 @@ a:hover {
 .current {
   margin-top: 20px;
   padding-top: 2px;
-  border-top: 1px solid var(--erisu-border);
+  border-top: 2px dashed var(--erisu-border);
   width: 170px;
   text-align: center;
 }
 #talisman {
   position: absolute;
-  bottom: -106px;
-  right: -2px;
+  bottom: -102px;
+  right: 0px;
   transform: rotate(-1deg);
 }
 
