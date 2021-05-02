@@ -25,7 +25,7 @@ body {
   box-sizing: border-box;
   color: var(--erisu-primary-ltr);
   border-radius: 4px;
-  box-shadow: 0px 3px 16px rgba(238, 17, 85, 0.87);
+  box-shadow: -2px 3px 6px rgba(238, 17, 85, 0.5);
   padding: 4px;
   background: var(--erisu-primary);
   transform: rotate(1deg);
