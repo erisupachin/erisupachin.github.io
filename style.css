@@ -105,9 +105,9 @@ p {
   display: grid;
   place-items: center;
 }
-a {
+.label {
   display: inline-block;
-  width: 70px;
+  width: 84px;
   color: var(--erisu-base);
   text-align: center;
   text-decoration: none;
