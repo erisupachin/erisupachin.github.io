@@ -117,6 +117,10 @@ p {
   border-radius: 1px;
   transition: 0.4s all ease;
 }
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 a:hover {
   color: var(--erisu-primary);
   background: var(--erisu-base-lt);
