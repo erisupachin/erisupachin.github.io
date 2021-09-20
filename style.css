@@ -120,6 +120,8 @@ p {
 .disabled {
   pointer-events: none;
   cursor: default;
+  background: #ffb5b5;
+  color: #d27b7b;
 }
 a:hover {
   color: var(--erisu-primary);
